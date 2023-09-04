@@ -16,3 +16,6 @@ I'm currently getting an error where it cannot enumerate USB devices, currently 
 I fixed the above issue by adding $USER to the vboxusers group, and grabbing the vbox extensions from the AUR page and restarting the desktop.
 I noticed I'm getting an error with the unattended setup, and have determined that the needed files are missing, therefore I need to verify or reinstall virtualbox.
 After installing the needed setup files from the AUR and recreating the VM, I've booted the vm and begun the installation process.
+After some time the VM opened appropriately and correctly showed the number of processes and ram that was passed to it.
+
+To continue I've grabbed the debian 12 iso from debian.org and also added it to a vm in vbox with similar settings to the windows 11 vm. I was then able to boot it immediately.
