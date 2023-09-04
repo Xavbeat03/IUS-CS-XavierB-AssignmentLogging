@@ -22,3 +22,5 @@ To continue I've grabbed the debian 12 iso from debian.org and also added it to 
 To fix a mouse issue that was occurring I'm switching the USB controller for the Debian vm to xHCI.
 Continuing I'll follow chapter 2 of the book Digital Forensics with Open Source Tools to setup the vm's.
 
+To get the first package "build-essentials" I needed to switch to root with su root, and then use apt-get to install build-essential. It was already installed.
+I first check if perl is installed, it is so I ensure that the version is after 5.10.1 and I run perl -MCPAN -e shell and run through with the default configuration.
