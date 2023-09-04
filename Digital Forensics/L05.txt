@@ -9,3 +9,7 @@ I installed virtualbox as my relevant vming software following along with this t
 I installed it through pacman.
 Next I'll need to create a Debian LTS os and a windows 11 one.
 To create the windows virtual machine I downloaded the appropriate iso from the microsoft website and put it into the vbox vm creation tool, I have created user information and am assigning appropriate memory and processor amount.
+
+I also wanted to set up the virtual disks on a non-main drive so I set up the apropriate mounting mechanisms in my fstab file.
+After setting up the proper mounting I need to move the vm over, which required me to reset the permissions of the drive folders. 
+I'm currently getting an error where it cannot enumerate USB devices, currently researching a fix to this issue.
