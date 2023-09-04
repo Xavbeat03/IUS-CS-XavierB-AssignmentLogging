@@ -1,3 +1,11 @@
-#Lesson 5
-
+Lesson 5
 This lesson is mainly focused on creating the appropriate testing environments. It also brings up the importance of logging.
+
+After reading through the first part of chapter 2, I realized I needed to have the environment set up in a virtual machine ahead of time.
+So to begin with I'll be creating an ubuntu and windows vm. I'll need to ensure that virtualization is available on my pc first though.
+I have enabled virtualization through the bios of my PC.
+
+I installed virtualbox as my relevant vming software following along with this tutorial https://www.youtube.com/watch?v=RJs70jQi7Wk
+I installed it through pacman.
+Next I'll need to create a Debian LTS os and a windows 11 one.
+To create the windows virtual machine I downloaded the appropriate iso from the microsoft website and put it into the vbox vm creation tool, I have created user information and am assigning appropriate memory and processor amount.
