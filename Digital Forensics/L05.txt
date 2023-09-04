@@ -19,3 +19,4 @@ After installing the needed setup files from the AUR and recreating the VM, I've
 After some time the VM opened appropriately and correctly showed the number of processes and ram that was passed to it.
 
 To continue I've grabbed the debian 12 iso from debian.org and also added it to a vm in vbox with similar settings to the windows 11 vm. I was then able to boot it immediately.
+To fix a mouse issue that was occurring I'm switching the USB controller for the Debian vm to xHCI.
