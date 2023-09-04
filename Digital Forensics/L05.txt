@@ -32,3 +32,5 @@ I've installed the FUSE modules that I can, however, it something occurred with 
 I've installed XMOUNT via apt-get
 I took a few pictures throughout this process for use in the assignment.
 This should conclude the linux vm setup.
+
+To begin the setup for windows I'll install cygwin from the cygwin website afterwards in the installation process I'll install the packages: automaker, make, make, CVS, subversion, mercurial, GCC, gcc-g++, git, python, perl, ruby, mintty
