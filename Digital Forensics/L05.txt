@@ -15,3 +15,4 @@ After setting up the proper mounting I need to move the vm over, which required 
 I'm currently getting an error where it cannot enumerate USB devices, currently researching a fix to this issue.
 I fixed the above issue by adding $USER to the vboxusers group, and grabbing the vbox extensions from the AUR page and restarting the desktop.
 I noticed I'm getting an error with the unattended setup, and have determined that the needed files are missing, therefore I need to verify or reinstall virtualbox.
+After installing the needed setup files from the AUR and recreating the VM, I've booted the vm and begun the installation process.
