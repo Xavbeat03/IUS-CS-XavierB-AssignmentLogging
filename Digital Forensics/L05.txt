@@ -25,6 +25,5 @@ Continuing I'll follow chapter 2 of the book Digital Forensics with Open Source 
 To get the first package "build-essentials" I needed to switch to root with su root, and then use apt-get to install build-essential. It was already installed.
 I first check if perl is installed, it is so I ensure that the version is after 5.10.1 and I run perl -MCPAN -e shell and run through with the default configuration.
 Next I'll ensure I have python3 and python 2 installed, after checking I appear to have python 3.11 but not python2 so I'll need to install that via apt-get.
-I installed python2.7.18 from the python website as a zipped file and have then unzipped it. Next I'll need to configure, make, and then make install it.
-
-
+I installed python2.7.18 from the python website as a zipped file and have then unzipped it. Next I'll need to configure, make. I won't make install it because I don't want to mess up the VM.
+I also installed ruby 3.1 which came with rubygems installed.
