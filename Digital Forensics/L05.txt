@@ -41,3 +41,5 @@ Next I'll be installing HFS explorer for mac related file systems and ext2fsd to
 Unfortunately the last update for ext2fsd was roughly 6 years ago and it has no official support for windows 11 so it may be an error point later on. The official website also no longer exists and is only on the wayback machine. So instead I'll be installing the Windows subsystem for Linux 2 or WSL2 for short. It should allow the mounting of linux disks later on.
 After installing hfs explorer from the link provided in the book it failed to boot due to a missing java instance, so I'll need to grab that as well. I've installed Java 8v381, hopefully that is sufficient.
 It was sufficient although one thing to note is the most recent release of HFS explorer was nearly 2 years ago.
+
+Thus concludes the setup required in L05.
