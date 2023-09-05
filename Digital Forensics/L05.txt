@@ -34,3 +34,4 @@ I took a few pictures throughout this process for use in the assignment.
 This should conclude the linux vm setup.
 
 To begin the setup for windows I'll install cygwin from the cygwin website afterwards in the installation process I'll install the packages: automaker, make, make, CVS, subversion, mercurial, GCC, gcc-g++, git, python, perl, ruby, mintty
+Next I'll be installing perl, ruby, and python natively. I'll be installing Strawberry perl instead of active perl because I don't want to put my login information in the vm. I've also installed python 2.7 and 3.11. Next I'll be installing ruby 3.2 as well with the ruby installer for windows.
