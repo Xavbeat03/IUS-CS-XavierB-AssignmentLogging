@@ -35,3 +35,9 @@ This should conclude the linux vm setup.
 
 To begin the setup for windows I'll install cygwin from the cygwin website afterwards in the installation process I'll install the packages: automaker, make, make, CVS, subversion, mercurial, GCC, gcc-g++, git, python, perl, ruby, mintty
 Next I'll be installing perl, ruby, and python natively. I'll be installing Strawberry perl instead of active perl because I don't want to put my login information in the vm. I've also installed python 2.7 and 3.11. Next I'll be installing ruby 3.2 as well with the ruby installer for windows.
+Next I'll be installing ImDisk for disk image work and I'll install 7zip as it's my preferred unzipping program for windows. After installing 7zip from the website I install ImDisk and follow the setup advice in the reademe file
+Then I start the service following the instructions of the book, which gives me the ability to run the program from the control panel. After doing so I'll begin to test the program by mounting an ntfs image from dftt.sourceforge.net. In this instance I'm pretty heavily following what the book is directing.
+Next I'll be installing HFS explorer for mac related file systems and ext2fsd to look at ext2 and ext3 file systems.
+Unfortunately the last update for ext2fsd was roughly 6 years ago and it has no official support for windows 11 so it may be an error point later on. The official website also no longer exists and is only on the wayback machine. So instead I'll be installing the Windows subsystem for Linux 2 or WSL2 for short. It should allow the mounting of linux disks later on.
+After installing hfs explorer from the link provided in the book it failed to boot due to a missing java instance, so I'll need to grab that as well. I've installed Java 8v381, hopefully that is sufficient.
+It was sufficient although one thing to note is the most recent release of HFS explorer was nearly 2 years ago.
