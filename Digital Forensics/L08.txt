@@ -1,0 +1,8 @@
+L06 Xavier Beatrice
+To begin this assignment I installed Sleuth Kit Autopsy onto my windows VM
+After installing, I'll start the program and begin a new case.
+I'll name the case L-08 and leave it in the set default directory and \Documents\Autopsy Cases\
+I'll then name the case and input my examiner information
+I'll select the Generate new host name based on data source name option.
+We'll be choosing the Data source type which is Disk Image or VM File
+I'll then look for the recommended image file 8-jpeg-search.dd
