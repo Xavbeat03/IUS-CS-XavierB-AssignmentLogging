@@ -6,3 +6,7 @@ I'll then name the case and input my examiner information
 I'll select the Generate new host name based on data source name option.
 We'll be choosing the Data source type which is Disk Image or VM File
 I'll then look for the recommended image file 8-jpeg-search.dd
+I'll load up the image into autopsy and give it the MD5 of the image as well
+I'll leave the ingest configuration as default and then finish the case construction
+
+
