@@ -9,4 +9,17 @@ I'll then look for the recommended image file 8-jpeg-search.dd
 I'll load up the image into autopsy and give it the MD5 of the image as well
 I'll leave the ingest configuration as default and then finish the case construction
 
+After running into a roadblock, I'm going to restart the process on debian.
+I'll update and install the autopsy via apt, and then run it via terminal
+I'll create a case next and name it L-08, give it an appropriate description, and give it my name
+Next I'll add a host, give it the default hostname and no description, I'll feed it EST as the timezone.
+The md5hash of the 8-jpeg-search.dd file is 9bdb9c76b80e90d155806a1fc784db5
+
+After running into another roadblock with the image file, 8-jpeg-search.dd, not properly loading and getting an error.
+I'll attempt case 2 with windows.
+I'll name it Case L08-2 and give it the number 08-2
+
+I'll let it generate a host, and select the Disk Image file type and give it 8-jpeg-search.dd as a file.
+I'll change the timezone to gmt-6:00
+There's no other things to change so I finish the data source add.
 
